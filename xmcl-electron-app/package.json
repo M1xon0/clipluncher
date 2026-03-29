@@ -1,0 +1,24 @@
+{
+  "name": "@clipsmp/electron-app",
+  "version": "1.0.0",
+  "description": "ClipSMP Launcher Electron Application",
+  "main": "dist/main.js",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"pnpm dev:ui\" \"wait-on http://localhost:5173 && electron .\"",
+    "dev:ui": "pnpm --filter @clipsmp/keystone-ui dev",
+    "build": "tsc && pnpm --filter @clipsmp/keystone-ui build",
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^28.2.0",
+    "@clipsmp/runtime": "workspace:*",
+    "@clipsmp/runtime-api": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.0",
+    "concurrently": "^8.2.2",
+    "wait-on": "^7.2.0"
+  }
+}

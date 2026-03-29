@@ -1,0 +1,5 @@
+packages:
+  - 'xmcl-electron-app'
+  - 'xmcl-keystone-ui'
+  - 'xmcl-runtime'
+  - 'xmcl-runtime-api'

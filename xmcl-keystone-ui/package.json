@@ -1,0 +1,21 @@
+{
+  "name": "@clipsmp/keystone-ui",
+  "version": "1.0.0",
+  "description": "ClipSMP Launcher UI",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "lint": "eslint . --ext .vue,.ts"
+  },
+  "dependencies": {
+    "vue": "^3.4.15",
+    "@clipsmp/runtime-api": "workspace:*"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.3",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12",
+    "vue-tsc": "^1.8.27"
+  }
+}
