@@ -1,0 +1,9 @@
+{
+  "serverIp": "placeholder.example.com:25565",
+  "modRepoOwner": "M1xon0",
+  "modRepoName": "clipluncher-mod",
+  "modRepoBranch": "main",
+  "minecraftVersion": "1.21.1",
+  "modLoader": "neoforge",
+  "brand": "ClipSMP"
+}
